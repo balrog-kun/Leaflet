@@ -49,6 +49,12 @@ var deps = {
 		deps: ['TileLayer']
 	},
 
+	TileLayerBPG: {
+		src: ['layer/tile/TileLayer.BPG.js'],
+		desc: 'BPG tile layer.',
+		deps: ['TileLayer']
+	},
+
 	ImageOverlay: {
 		src: ['layer/ImageOverlay.js'],
 		desc: 'Used to display an image over a particular rectangular area of the map.'
